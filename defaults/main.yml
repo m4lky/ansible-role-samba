@@ -1,5 +1,5 @@
 ---
-mycifs: "//truenas.m4lky.com/SMB-Share/"
+mycifs: "//truenas.m4lky.com/shared"
 mountpoint: "/home/malcolm/truenas"
 username: "malcolm"
 password: "password"
