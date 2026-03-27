@@ -19,5 +19,5 @@
     src: "{{ mycifs }}"
     path: "{{ mountpoint }}"
     fstype: cifs
-    opts: 'username={{ username }},password={{ password }}'
+    opts: 'username={{ username }},password={{ password }},uid=1000,gid=1000,noperm,vers=3.0'
     state: mounted
